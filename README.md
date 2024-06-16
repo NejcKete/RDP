@@ -14,7 +14,7 @@
     ```sh
     cd RDP-install
     chmod 777 RDP-install.sh
-    ./install-rdp.sh
+    ./RDP-install.sh
     ```
 
 3. **Complete Installation**:
