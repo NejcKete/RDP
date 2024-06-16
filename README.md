@@ -13,7 +13,7 @@
 2. **Set Permissions and Run Script**:
     ```sh
     cd RDP-install
-    chmod +x install-rdp.sh
+    chmod 777 install-rdp.sh
     ./install-rdp.sh
     ```
 
