@@ -6,8 +6,8 @@
 
 1. **Download and Unzip**:
     ```sh
-    wget <URL-to-zip-file>
-    unzip <zip-file-name>.zip
+    cd Downloads
+    unzip RDP-install.zip
     ```
 
 2. **Set Permissions and Run Script**:
