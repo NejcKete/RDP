@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=java -jar /root/RDP.jar
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=RDP
+Comment=Start RDP on login
