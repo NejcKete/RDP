@@ -19,6 +19,7 @@ public class RemminaConfigModifier {
             Path path = Paths.get(filePath);
             String[] lines = Files.readAllLines(path).toArray(new String[0]);
             lines[21] = "server=" + newServer;
+            lines[57] = "username=";
             Files.write(path, String.join(System.lineSeparator(), lines).getBytes());
         } catch (IOException e) {
             System.err.println(e.getMessage());
