@@ -12,10 +12,10 @@ import java.io.IOException;
  */
 public class Connect {
 
-    public static void Connect(String ip) {
+    public static void Connect(String ip,String domain) {
         String filePath = ".local/share/remmina/test.remmina";
         try {
-            RemminaConfigModifier.modifyRemminaConfig(filePath,ip);
+            RemminaConfigModifier.modifyRemminaConfig(filePath,ip,domain);
             Runtime.getRuntime().exec("remmina -c " + filePath);
         } catch (IOException ex) {
             System.out.println("ERROR");

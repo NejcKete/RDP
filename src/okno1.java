@@ -26,7 +26,7 @@ public class okno1 extends javax.swing.JFrame {
         System.setProperty("java.awt.headless", "true");
         initComponents();
         TableCustom.apply(jScrollPane1, TableCustom.TableType.DEFAULT);
-        setSize(getWidth() * 2, getHeight() * 2);
+        setSize(getWidth()*2, getHeight()*2);
         fillTable.checkIP(jTable1);
     }
 
@@ -106,7 +106,9 @@ public class okno1 extends javax.swing.JFrame {
             // Perform your click action here
             int row = jTable1.getSelectedRow();
             String ip = (String) jTable1.getModel().getValueAt(row, 2)+":"+jTable1.getModel().getValueAt(row, 3);
-            Connect.Connect(ip);
+            String domain= (String) jTable1.getModel().getValueAt(row, 1);
+            System.out.print(domain);
+            Connect.Connect(ip,domain);
             jTable1.disable();
             canClick = false;
             clickTimer = new Timer(3000, new ActionListener() {
