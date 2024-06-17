@@ -2,6 +2,7 @@ sudo apt install remmina-plugin-rdp -y
 sudo apt install openjdk-17-jdk -y
 sudo apt-get install openssh-client -y
 sudo mkdir -p ~/.local/share/remmina
+sudo mkdir -p ~/.config/remmina
 sudo apt remove galculator -y
 sudo apt remove chromium-* -y
 sudo apt remove pcmanfm -y
