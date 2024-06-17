@@ -9,7 +9,7 @@ mv USERS.txt ~
 mv RDP.jar ~
 mv RDP.sh ~/Desktop
 chmod 777 ~/Desktop/RDP.sh
-mv remmina.pref .config/remmina/
+mv remmina.pref ~/.config/remmina/
 mv test.remmina ~/.local/share/remmina/
 mv rdp.desktop ~/.config/autostart/rdp.desktop
 mv lxde-rc.xml ~/.config/openbox/
